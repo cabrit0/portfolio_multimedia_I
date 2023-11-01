@@ -21,6 +21,7 @@ html, body{
 .navbar {
     height: 60px; 
     padding-right: 25px;
+    z-index: 99;
 }
 
 .navbar-nav{
