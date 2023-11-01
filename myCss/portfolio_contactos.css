@@ -23,6 +23,10 @@ html, body{
     padding-right: 25px;
 }
 
+.navbar-toggler{
+    margin-right: 25px;
+}
+
 .navbar-nav{
     text-align: center;
     background-color: rgba(158,180,133,255);

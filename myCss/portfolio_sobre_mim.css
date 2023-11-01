@@ -20,7 +20,10 @@ html, body {
 
 .navbar {
     height: 60px;
-    
+}
+
+.navbar-toggler{
+    margin-right: 25px;
 }
 
 .navbar-nav {
