@@ -20,6 +20,7 @@ html, body{
 
 .navbar {
     height: 60px; 
+    padding-right: 25px;
 }
 
 .navbar-nav{
@@ -29,7 +30,7 @@ html, body{
 
     .navbar .navbar-brand{
         font-size: 1.6em;
-        color: rgba(41,58,40,255);
+        color: #847c74;
     }
 
 .nav-link {
@@ -102,10 +103,27 @@ html, body{
         font-size: .8em;
     }
 
-.projects{
-    margin: 0 auto;
+.content h1{
+    margin: 10px 100px;
+    color: #847c74;
+}
+
+.projects {
+    margin: 20px auto;
     width: 60%;
     height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.scrollable_projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 550px;
+    overflow-y: auto;
+    padding: 20px;
 }
 
 .card{
@@ -118,14 +136,22 @@ html, body{
     }
 
     .card .card-body{
-        font-size: .8rem;;
+        font-size: .9rem;
+        height: auto;
     }
 
 @media screen and (max-width: 768px) {
     .bg{
         background-size: cover;
     }
+
     .projects{
-        width: 100%;
+        width: 80%;
+    }
+
+    .scrollable_projects {
+        max-height: 550px;
+        overflow-y: auto;
+        padding: 20px;
     }
 }    
