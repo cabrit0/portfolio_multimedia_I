@@ -20,7 +20,6 @@ html, body{
 
 .navbar {
     height: 60px; 
-    padding-right: 25px;
     z-index: 99;
 }
 
@@ -144,6 +143,11 @@ html, body{
 @media screen and (max-width: 768px) {
     .bg{
         background-size: cover;
+    }
+
+    .card{
+        width: 12rem;
+        z-index: 1;
     }
 
     .projects{
