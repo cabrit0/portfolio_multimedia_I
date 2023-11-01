@@ -91,6 +91,25 @@ html, body{
     color: #847c74;
 }
 
+    .hero a{
+        text-decoration: none;
+        padding: 2px 4px;
+        border: solid 2px #847c74;
+        border-radius: 6px;
+        background-color: #bbc3a3;
+        color: #ebe3db;
+    }
+
+   
+    .hero a:hover{
+        border: solid 2px #bbc3a3;
+        border-radius: 6px;
+        color: #847c74;
+        background-color: #ebe3db;
+        margin: 0 6px;
+    }
+    
+
     .hero h1 span{
         color: rgb(187,195,163);
     }
